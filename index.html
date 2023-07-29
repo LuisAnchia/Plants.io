@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recomendación de Plantas</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div>
+    <form id="plantForm">
+      <!-- Pregunta 1 -->
+      <div>
+        <label>
+          Where will you place your plant?
+          <br />
+          <input type="radio" name="light" value="lowLight" required>
+          Inside with some indirect light
+          <br />
+          <input type="radio" name="light" value="mediumLight" required>
+          Inside with a lot of indirect light
+          <br />
+          <input type="radio" name="light" value="outdoor" required>
+          Outside
+        </label>
+      </div>
+
+      <!-- Pregunta 2 -->
+      <div>
+        <label>
+          Will it receive direct sunlight?
+          <br />
+          <input type="radio" name="sunlight" value="Yes" required>
+          Yes
+          <br />
+          <input type="radio" name="sunlight" value="No" required>
+          No
+        </label>
+      </div>
+
+      <!-- Pregunta 3 -->
+      <div>
+        <label>
+          Do you have pets (cats or dogs)?
+          <br />
+          <input type="radio" name="pets" value="Yes" required>
+          Yes
+          <br />
+          <input type="radio" name="pets" value="No" required>
+          No
+        </label>
+      </div>
+
+      <!-- Pregunta 4 -->
+      <div>
+        <label>
+          Do you tend to overwater or underwater?
+          <br />
+          <input type="radio" name="watering" value="Overwater" required>
+          Overwater
+          <br />
+          <input type="radio" name="watering" value="Underwater" required>
+          Underwater
+          <br />
+          <input type="radio" name="watering" value="Neither" required>
+          Neither / I don’t know
+        </label>
+      </div>
+
+      <!-- Pregunta 5 -->
+      <div>
+        <label>
+          How do you define your style?
+          <br />
+          <input type="radio" name="style" value="Minimalism" required>
+          I like minimalism and material colors
+          <br />
+          <input type="radio" name="style" value="Decoration" required>
+          I like some decoration and simple colors
+          <br />
+          <input type="radio" name="style" value="BrightColors" required>
+          I like a lot of decoration and bright colors
+        </label>
+      </div>
+
+      <!-- Pregunta 6 -->
+      <div>
+        <label>
+          Do you want to add any extra elements to your plant?
+          <br />
+          <input type="checkbox" name="extras" value="MossPole">
+          Moss pole
+          <br />
+          <input type="checkbox" name="extras" value="Pebbles">
+          Pebbles
+          <br />
+          <input type="checkbox" name="extras" value="SmallerPlants">
+          Smaller plants
+        </label>
+      </div>
+
+      <button type="submit">Obtener tu planta</button>
+      <button type="reset">Limpiar</button>
+    </form>
+
+    <div id="recommendation">
+      <!-- Aquí se mostrará la recomendación de la planta -->
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>

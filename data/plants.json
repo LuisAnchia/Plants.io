@@ -1,0 +1,17 @@
+{
+    "plants": {
+      "lowLight": {
+        "toxic": "Sansevieria",
+        "nonToxic": "Boston Fern"
+      },
+      "mediumLight": {
+        "toxic": "Aglaonema",
+        "nonToxic": "Monstera"
+      },
+      "outdoor": {
+        "toxic": "Aloe Vera",
+        "nonToxic": "Cactus"
+      }
+    }
+  }
+  
