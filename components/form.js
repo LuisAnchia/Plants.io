@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
-import data from '../Data/plants.json'; // Ajusta la ruta según la estructura de tus archivos
+import data from '../Data/plants.json'; 
 import RecommendationBuilder from './RecommendationBuilder';
+
+data()
 
 const Form = () => {
   const [answers, setAnswers] = useState({});
